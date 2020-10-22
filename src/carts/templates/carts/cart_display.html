@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+{% endblock %}
+
+{% block content %}
+  <h1> CART </h1>
+  {% if cart.products.exists %}
+  <div class = 'card' style= 'background-color: #a3c2c2; width:600px; margin-left:auto; margin-right: auto'>
+  <table class="table table-sm">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Product Name</th>
+      <th scope="col">Price</th>
+     
+    </tr>
+  </thead>
+  <tbody>
+  	{% for product in cart.products.all %}
+    <tr>
+      <th scope="row">{{forloop.counter}}</th>
+      <td><a href = '{{products.get_absolute_url}}'>{{product.title}}</a></td>
+      <td>{{product.price}}</td>
+      <td>{% include 'products/widgets/update_cart.html' %}</td>
+    </tr>
+    {% endfor %}
+    <tr>
+      
+      <td colspan = "2"></td>
+      <td><b>subtotal</b> {{ cart.subtotal }}</td>
+      
+    </tr>
+    <tr>
+      
+      <td colspan = "2"></td>
+      <td><b>total</b> {{ cart.total }}</td>
+      <td>{% include 'order/order_details.html' %}</td>
+      
+    </tr>
+    
+   </tbody>
+ </table>
+</div>
+{% else %}
+  <p class = 'lead'> card is empty</p> 
+{% endif %}
+
+
+{% endblock %}

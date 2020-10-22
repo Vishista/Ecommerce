@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+
+
+{% block style %}
+<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+{% endblock %}
+
+{% block content %}
+
+<div class="dropdown dropdown-sm">
+  <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = 'margin-left: auto; margin-right:auto; background-color: #c2d6d6'>
+    View Orders
+  </button>
+  <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="dropdownMenuButton">
+    {% for items in orders %}
+   <form method= 'POST' action = "{% url 'order:saved' %}" class ='form'>{% csrf_token %} 
+    <input type = 'hidden' name = 'order_id' value = '{{items.id}}'/>
+    <button class="dropdown-item dropdown-item-sm" type= 'submit' style = 'height:auto;width:200px;'> {{ items.timestamp }}
+           
+    </button>
+    </form>
+    
+  
+    {% endfor %}
+  </div>
+</div>
+
+
+ <div class = 'container mx-auto'>
+ <div class = 'display'>
+  <div> {{order.timestamp}}  </div> 
+  <div class="ml-auto" style="width: 200px; padding-right: 10px">
+  
+  deliver to - {{order.address}}</div>
+  <div class="mx-auto" style="width: 200px; font-size: 50; font-weight: bolder;"> V-PLANET</div>
+  <div> order nr - {{order.id}}  </div> 
+  <div> PRODUCTS</div>
+  
+  <hr class = 'separator'>
+  {% for products in order.products.all %}
+ 
+  <div>{{products.title}} - {{products.price}}</div>
+  
+  {% endfor %}
+  <hr class = 'separator'>
+  <div> total - {{order.total}} </div>  
+ </div>
+</div>
+ <div class = 'white'><hr/><div>
+ 
+{% endblock %}

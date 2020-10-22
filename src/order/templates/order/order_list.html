@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block style %}
+<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+{% endblock %}
+{% block content %}
+
+<div class="dropdown dropdown-sm">
+  <button class="btn btn-sm dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style = 'margin-left: auto; margin-right:auto; background-color: #c2d6d6'>
+    View Orders
+  </button>
+  <div class="dropdown-menu dropdown-menu-sm" aria-labelledby="dropdownMenuButton">
+    {% for items in orders %}
+   <form method= 'POST' action = "{% url 'order:saved' %}" class ='form'>{% csrf_token %} 
+    <input type = 'hidden' name = 'order_id' value = '{{items.id}}'/>
+    <button class="dropdown-item dropdown-item-sm" type= 'submit' style = 'height:auto;width:200px;'> {{ items.timestamp }}
+           
+    </button>
+    </form>
+    
+  
+    {% endfor %}
+  </div>
+</div>
+
+
+
+{% endblock %}

@@ -1,0 +1,23 @@
+.dropdown-item {
+  color:white;
+  display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
+  height:6px;
+ }
+
+.dropdown-menu{
+ 
+  position: absolute;
+  background-color: #29a3a3;
+
+ }
+
+
+.dropdown-item:hover, .dropdown-item:focus{
+  color: lightgreen;
+  font-weight: bolder;
+  font-style: underline;
+  background-color: #29a3a3;
+}

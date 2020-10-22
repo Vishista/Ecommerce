@@ -1,0 +1,91 @@
+{% load static %}
+{% load update_prod %}
+
+{% url 'home' as home_url %}
+{% url 'contact' as contact_url %}
+{% url 'product:list' as product_url %}
+{% url 'login' as login_url %}
+{% url 'logout' as logout_url %}
+{% url 'register' as register_url %}
+{% url 'cart:home' as cart_url %}
+{% url 'order:saved' as save_order %}
+
+
+
+<script>
+function myFunction() {
+  alert("Hello! I am an alert box!");
+}
+</script>
+
+<link rel="stylesheet" href="{% static 'css/nav.css' %}">
+
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-3">
+ <div class = 'container'>
+  <a class="navbar-brand" href="{{ home_url }}">
+ 
+        <img src='{% static "img/vlogo.png" %}' width="30" height="30" class="d-inline-block align-top" alt="" loading="lazy">
+        Planet</a>
+<!--{%if brand%}{{brand}}{%else%} V2-Shop m{%endif%}</a>-->
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+<ul class="navbar-nav mr-auto">
+  <li class="nav-item {% if request.path == home_url %}active{%endif%}">
+    <a class="nav-link" href="{{ home_url }}">Home <span class="sr-only">(current)</span></a>
+  </li>
+  <li class="nav-item {% if request.path == contact_url %}active{%endif%}">
+    <a class="nav-link" href="{% url 'contact' %}">Contact</a>
+  </li>
+  <li class="nav-item {% if request.path == product_url %}active{%endif%}">
+    <a class="nav-link" href="{% url 'product:list' %}">Product</a>
+  </li>
+  {% if request.user.is_authenticated %}
+  <li class="nav-item {% if request.path == login_url %}active{%endif%}">
+   <a class="nav-link" href="{% url 'login' %}">logout</a>
+  </li>
+  {% else %}
+  <li class="nav-item {% if request.path == login_url %}active{%endif%}">
+    <a class="nav-link" href="{% url 'login' %}">login</a>
+  </li>
+
+  <li class="nav-item {% if request.path == register_url %}active{%endif%}">
+    <a class="nav-link" href="{% url 'register' %}">register</a>
+  </li>
+  {% endif %}
+  <li class="nav-item dropdown">
+          
+           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Dropdown link
+            </a>
+           <div class="dropdown-menu dropdown-menu-left" id = "drop"aria-labelledby="navbarDropdownMenuLink">
+           <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink"> -->
+            <a class="dropdown-item" href="{{cart_url}}" >cart</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Link</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">New</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="{{save_order}}">orders</a>
+            
+            </div>
+            </li>
+</ul>
+{%include 'search/snippets/search_form.html' %}
+ 
+  <a href="{% url 'cart:home' %}" style = 'margin-left: 4px; padding-left: 8px;'>
+    <div class = 'container' style= 'position:relative; margin-bottom: 40px'>
+    
+    <div style="position:absolute; "><img src='{% static "img/cart2.jpg" %}' alt="" width="45" height="45"></div>
+    <div style="position:absolute; margin-left: 14px; margin-bottom: 8px;padding-bottom:5px; color:black; font-weight: bolder">{% if request.user.is_authenticated %}{{count|prod_add:user}} {% endif %}</div>
+  </div>
+
+     </a>
+
+
+</div>
+</div>
+</nav>

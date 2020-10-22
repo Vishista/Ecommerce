@@ -1,0 +1,14 @@
+{% load static %}
+
+{% url 'order:summary' as ordersum_url %}
+
+
+
+
+<form method= 'POST' action = "{% url 'order:summary'%}" class = 'form'>{% csrf_token %} 
+   <input type = 'hidden' name = 'cart' value = '{{cart}}'/>
+   
+    <button type = 'submit' class = 'btn btn-info btn-sm' style='margin-top:3px; width:100px; border-style: hidden;'>purchase all</button>
+
+</form>
+

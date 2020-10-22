@@ -1,0 +1,15 @@
+ .imgstyle {
+  border-style: hidden;
+  padding: 2px;
+  max-height:60px;
+  max-width: 100%
+  
+}
+
+.imgstyle:hover {
+  
+  border-style: hidden;
+  box-shadow: 0 0 0 0 #e1eaea;
+  transform: scale(1.4,4)
+  
+}

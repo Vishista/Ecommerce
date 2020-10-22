@@ -1,0 +1,13 @@
+{% load static %}
+
+{% url 'order:single' as ordersingle_url %}
+
+
+
+
+<form method= 'POST' action = "{% url 'order:single'%}" class = 'form'>{% csrf_token %} 
+   
+   <input type = 'hidden' name = 'product_id' value = '{{product.id}}'/>
+    <button type = 'submit' class = 'btn btn-primary btn-sm' style='margin-top:3px; width:100px; border-style: hidden;'>purchase</button>
+
+</form>

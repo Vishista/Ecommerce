@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block style %}
+<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+{% endblock %}
+
+{% block content %}
+<div class = 'container'>
+	<div class = 'row'>
+		<div class = 'col-6 mx-auto'>
+		   <h4> order placed succesfully </h4>
+		 </div> 
+		 </div> 
+         <div class = 'row'>
+		 <div class = 'col-6 mx-auto'>
+		  <a href= "{% url 'order:list'%}"> <h4>view placed orders </h4></a>
+		 </div>
+		 </div>
+		 </div>
+
+	
+</form>
+  
+
+
+
+
+
+
+
+{% endblock %}

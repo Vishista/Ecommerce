@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+
+  <div class = 'row mb-3'>
+    {% if request.GET.q %}
+    <div class = 'col-12 mb-3'>
+       <b> results for {{prod}} </b>
+     <hr/>
+    </div>
+    {%else%}
+      <div class = 'col-12 col-md-6 mx-auto py-5'>
+       {%include 'search/snippets/search_form.html' %}
+     
+    </div>
+    <div class = 'col-12'>
+      <hr/>
+    </div>
+    
+    {%endif%}
+    </div> 
+   <div class = 'row'>
+      {% for items in object_list %}
+      
+        <div class="col-lg-3 d-flex align-self-stretch justify-content-center">
+          <!--<div class="col-sm-12 col-lg-6"> 
+        {{forloop.counter}}-->
+         {% include "products/widgets/card.html" with instance=items %}
+          {% if forloop.counter|divisibleby:4 %}  
+          <!--{% cycle 'hello vikky' '' '' %} -->
+         </div><div class = 'col-12'><hr/>
+         </div>
+         
+         {% else %}
+          </div>
+        
+         {% endif %}  
+       {% endfor %}
+     </div>
+    {% endblock %}
+ 

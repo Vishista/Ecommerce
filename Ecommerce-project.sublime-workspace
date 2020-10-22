@@ -1,0 +1,1374 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"course",
+				"course_info"
+			],
+			[
+				"Art",
+				"ArticleCreateView"
+			],
+			[
+				"Ar",
+				"Article"
+			],
+			[
+				"Article",
+				"ArticleListView"
+			],
+			[
+				"List",
+				"ArticleListView"
+			],
+			[
+				"ob",
+				"objects"
+			],
+			[
+				"get",
+				"get_object_or_404"
+			],
+			[
+				"s",
+				"save"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"P",
+				"POST"
+			],
+			[
+				"de",
+				"description"
+			],
+			[
+				"des",
+				"defs\tMethod"
+			],
+			[
+				"my_",
+				"my_context"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/prod_list.html",
+			"settings":
+			{
+				"buffer_size": 237,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_delete.html",
+			"settings":
+			{
+				"buffer_size": 259,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_list.html",
+			"settings":
+			{
+				"buffer_size": 159,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/hyperlist.html",
+			"settings":
+			{
+				"buffer_size": 190,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/store.html",
+			"settings":
+			{
+				"buffer_size": 195,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/store.html",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_create.html",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_update.html",
+			"settings":
+			{
+				"buffer_size": 195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/forms.py",
+			"settings":
+			{
+				"buffer_size": 942,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/forms.py",
+			"settings":
+			{
+				"buffer_size": 355,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/models.py",
+			"settings":
+			{
+				"buffer_size": 455,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_detail.html",
+			"settings":
+			{
+				"buffer_size": 118,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/tests.py",
+			"settings":
+			{
+				"buffer_size": 60,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/urls.py",
+			"settings":
+			{
+				"buffer_size": 1142,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/urls.py",
+			"settings":
+			{
+				"buffer_size": 561,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/FirstDjango/urls.py",
+			"settings":
+			{
+				"buffer_size": 1203,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/FirstDjango/settings.py",
+			"settings":
+			{
+				"buffer_size": 3195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/admin.py",
+			"settings":
+			{
+				"buffer_size": 122,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/admin.py",
+			"settings":
+			{
+				"buffer_size": 151,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/views.py",
+			"settings":
+			{
+				"buffer_size": 5103,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/delete.html",
+			"settings":
+			{
+				"buffer_size": 201,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_delete.html",
+			"settings":
+			{
+				"buffer_size": 232,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_detail.html",
+			"settings":
+			{
+				"buffer_size": 105,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_list.html",
+			"settings":
+			{
+				"buffer_size": 145,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/views.py",
+			"settings":
+			{
+				"buffer_size": 1596,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/course/models.py",
+			"settings":
+			{
+				"buffer_size": 116,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/product/views.py",
+			"settings":
+			{
+				"buffer_size": 4376,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/models.py",
+			"settings":
+			{
+				"buffer_size": 393,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Dr/Ecommerce",
+		"/C/Users/Dr/Ecommerce/env"
+	],
+	"file_history":
+	[
+		"/C/Users/Dr/ProjectDjango/env/src/FirstDjango/urls.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/urls.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/forms.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/views.py",
+		"/C/Users/Dr/ProjectDjango/env/src/FirstDjango/settings.py",
+		"/C/Users/Dr/ProjectDjango/env/src/course/views.py",
+		"/C/Users/Dr/ProjectDjango/env/src/course/models.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/delete.html",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/urls.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/forms.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/hyperlist.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/about.html",
+		"/C/Users/Dr/ProjectDjango/env/src/pages/views.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/views.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/models.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/urls.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/models.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/tests.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/admin.py",
+		"/C/Users/Dr/ProjectDjango/env/src/Blog/apps.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/about.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/detail.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/tests.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/store.html",
+		"/C/Users/Dr/ProjectDjango/env/src/profiles/views.py",
+		"/C/Users/Dr/ProjectDjango/env/src/pages/product/detail.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/product/store_backup.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/product/detail.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/product/store.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/products/store.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/products/detail.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/templates/store.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/store.html",
+		"/C/Users/Dr/ProjectDjango/env/src/pages/models.py",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/base.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/navbar.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/home.html",
+		"/C/Users/Dr/ProjectDjango/env/src/templates/contact.html",
+		"/C/Users/Dr/ProjectDjango/env/src/product/__init__.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/admin.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/migrations/0001_initial.py",
+		"/C/Users/Dr/ProjectDjango/env/src/product/migrations/__init__.py",
+		"/C/Users/Dr/ProjectDjango/env/src/db.sqlite3"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 20,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/prod_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 14,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_delete.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 259,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								259,
+								259
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 27,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 159,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 28,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/hyperlist.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 29,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/store.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/store.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_update.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								195,
+								195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 942,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								301
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Dr\\ProjectDjango\\env\\src\\course",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 24,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								455,
+								455
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 25,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/templates/Blog/article_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 118,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								118,
+								118
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/tests.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 60,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 23,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1142,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 561,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/FirstDjango/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1203,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1195,
+								1195
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 15,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/FirstDjango/settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1112,
+								1112
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 103.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 122,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								122,
+								122
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/admin.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5103,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								607,
+								607
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"default_dir": "C:\\Users\\Dr\\ProjectDjango\\env\\src\\course\\templates\\course",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/templates/product/delete.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 201,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								87,
+								87
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_delete.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 232,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_detail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 105,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								89,
+								89
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/templates/course/course_list.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								81,
+								81
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1596,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/course/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 116,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/product/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4376,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1821,
+								1821
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 29,
+					"file": "/C/Users/Dr/ProjectDjango/env/src/Blog/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 393,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								367,
+								367
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 26,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Ecommerce-project.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 180.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

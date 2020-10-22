@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+
+
+{% load static %}
+
+
+
+{% block style %}
+<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+{% endblock %}
+
+{% block content %}
+{% for items in orders %}
+ <div class = 'container'>
+ <div class = 'display'>
+  <div> {{items.timestamp}}  </div> 
+  <div class="ml-auto" style="width: 200px; padding-right: 10px">
+  
+  deliver to - {{items.address}}</div>
+  <div class="mx-auto" style="width: 200px; font-size: 50; font-weight: bolder;"> V-PLANET</div>
+  <div> order nr - {{items.id}}  </div> 
+  <div> PRODUCTS</div>
+  
+  <hr class = 'separator'>
+  {% for products in items.products.all %}
+ 
+  <div>{{products.title}} - {{products.price}}</div>
+  
+  {% endfor %}
+  <hr class = 'separator'>
+  <div> total - {{items.total}} </div>  
+ </div>
+</div>
+ <div class = 'white'><hr/><div>
+ {% endfor %}
+{% endblock %}
