@@ -11,45 +11,22 @@
 		    <title>base page</title>
 		    {% include "base/css.html" %}
 		    <!--<link rel="stylesheet" type="text/css" href="{% static 'static_files/main.css' %}">-->
-
 		    
-			    {% block style %}{% endblock %}
-			    <style>
-			    	.display{
-			    		background-color: #c2d6d6;
-			    		font-family: arial;
-			    		font-weight: bolder;
-			    		padding-left: 10px;
-			    		text-align: justify-all;
-			    		border-style:hidden;
-			    		width:500px;
-			    		margin-left: auto;
-			    		margin-right: auto;
-
-			    		
-			    	}
-			    	.white{
-			    		background-color: white
-			    		height: 2px;
-			    	}
-
-			    	.separator{
-			    		border:1px solid black;
-			    	}
-			    	
-			    	
-			    </style>
-			    <script>
-			    	{% block tooltipscript %}{% endblock %}
-			    </script>
-			</head>
-		  </head>
+			{% block style %}{% endblock %}
+			  			   
+		 </head>
+		  
 		  <body>
 		  	{% include "base/nav.html" with brand="ecommerce" %}
 		      
+		    {% block scripting %}{% endblock %}
             <div class = 'container-fluid content-row'>
-		    {% block content %}{% endblock %}
+
+		      {% block content %}{% endblock %}
+
 		    </div>
+              
 		    {% include "base/js.html" %}
+
 		  </body>
 		</html>

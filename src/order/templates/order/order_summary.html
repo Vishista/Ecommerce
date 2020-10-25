@@ -1,53 +1,68 @@
 {% extends 'base.html' %}
+
 {% load static %}
+
 {% block style %}
-<link rel="stylesheet" href='{% static "css/bg.css" %}'>
+  <link rel="stylesheet" href='{% static "css/bg.css" %}'>
 {% endblock %}
+
+
+
 {% block content %}
 
-<table class="table table-sm" style = 'width:300px; background-color: #a3c2c2; border-style: hidden'>
-  <thead>
-    <tr>
-      <th scope="col"></th>
-      <th scope="col">Product</th>
-      <th scope="col">Price</th>
-      
-    </tr>
-  </thead>
-  <tbody>
-     {% if product_list.exists %}
-      {% for item in product_list %}
-    <tr>
-      
-      <th scope="row"></th>
-      <td>{{item.title}}</td>
-      <td>{{item.price}}</td>
-      </tr>
-      {% endfor %}
-   
-    <tr>
-      <th scope="row"></th>
-      <td>Total</td>
-      <td>{{total}}</td>
-      
-    </tr>
-    {% else %}
-    <tr>
-      <th scope="row"></th>
-      <td>{{item.title}}</td>
-      <td>{{item.price}}</td>
-      
-    </tr>
-     <tr>
-      <th scope="row"></th>
-      <td>Total</td>
-      <td>{{total}}</td>
-      
-    </tr>
-    {% endif %}
-    </tr>
-     
-  </tbody>
-</table>
-{% include 'order/final_order.html' %}
+
+
+  <div class = 'container'>
+    <div class = 'row'>
+      <div class = 'col-6'>
+            <table class="table table-sm" style = 'width:300px; background-color: #a3c2c2; border-style: hidden'>
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col">Product</th>
+                  <th scope="col">Price</th>
+                  
+                </tr>
+              </thead>
+              <tbody>
+                 {% if product_list.exists %}
+                  {% for item in product_list %}
+                <tr>
+                  
+                  <th scope="row"></th>
+                  <td>{{item.title}}</td>
+                  <td>{{item.price}}</td>
+                  </tr>
+                  {% endfor %}
+               
+                <tr>
+                  <th scope="row"></th>
+                  <td>Total</td>
+                  <td>{{total}}</td>
+                  
+                </tr>
+                {% else %}
+                <tr>
+                  <th scope="row"></th>
+                  <td>{{item.title}}</td>
+                  <td>{{item.price}}</td>
+                  
+                </tr>
+                 <tr>
+                  <th scope="row"></th>
+                  <td>Total</td>
+                  <td>{{total}}</td>
+                  
+                </tr>
+                {% endif %}
+                </tr>
+                 
+              </tbody>
+            </table>
+        </div>  
+        <div class = 'col-6'>
+            {% include 'order/final_order.html' %}
+        </div>
+      </div>
+    </div>
 {% endblock %}

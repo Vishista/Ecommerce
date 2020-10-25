@@ -2,7 +2,7 @@
 
 
 <link rel="stylesheet" href="{% static 'css/card2.css' %}">
-<link rel="stylesheet" href="{% static 'css/fulldisplay.css' %}">
+<link rel="stylesheet" href="{% static 'css/hoverdisp.css' %}">
 <div class="card-group">
 
 <div class="card text-left" style='border-style: hidden; width:200px; height:250px; background-color: #c2d6d6'>
@@ -17,14 +17,21 @@
  {% endif %} 
   <div class="card-body text-info">
     <h8 class="card-title" style = 'color:darkblue;font-weight: bolder;margin-top:0px;' >{{instance.title}}</h8>
-    <div displayonhover>
-    <p class="card-text" style = 'color:darkblue;margin-top:0px; font-size:15px'>
+    <div class = 'displayonhover'>
+     <p class="card-text" style = 'color:darkblue;margin-top:0px; font-size:15px'>
 
       {{instance.description|truncatewords:8}}</p></div>
+      <div class = 'tooltip' style = 'background-color: #cce6ff; color: black; width:100% ; border-radius: 12px; border-style:hidden; border'> 
+        <div> Price : {{instance.price}} </div>
+        
+        <div style = 'padding-top: 4px'>{{instance.description|truncatewords:30}}</div>
+      </div>
+
+     
       
-    <a href="{{items.get_absolute_url}}" class="btn btn-info btn-sm" style='padding-bottom:0px; text-align: center;word-wrap; max-height:20px;word-wrap: break-word; overflow: hidden; vertical-align:middle; padding:0px; min-width:40px;padding-top:0px; border-style:hidden; margin-top:8px'>view</a>
-    <div class = 'tooltip'>{{instance.description}}</div>
-   
+    <a href="{{items.get_absolute_url}}" class="btn btn-info btn-sm" style='padding-bottom:0px; text-align: center;word-wrap; max-height:20px;word-wrap: break-word; overflow: hidden; vertical-align:middle; padding:0px; min-width:40px;padding-bottom:4px; border-style:hidden; margin-top:8px'>view</a>
+    
+    
   <!--  <a href="{% url 'product:details' slug=instance.slug %}" class="btn btn-warning">go</a>-->
   </div>
 </div>

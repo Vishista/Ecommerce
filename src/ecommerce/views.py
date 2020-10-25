@@ -96,6 +96,12 @@ def home_page(request):
      #   }
     return render(request, 'home.html', context)
 
+# front end testing
+def fet(request):
+    
+    return render(request, 'fet.html', {})
+
+
 
 def home_page_old(request):
     html_ = """

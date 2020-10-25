@@ -1,27 +1,47 @@
+{% load static %}
 
-<form method= 'POST' action = "{% url 'order:pay' %}" class = 'form'>{% csrf_token %} 
 
-  {% if product_list.exists %}
-   <input type = 'hidden' name = 'product_list' value = '{{product_list}}'/>
-  {% else %}
-  <input type = 'hidden' name = 'item' value = '{{item}}'/>
-  {% endif %}
-   <input type = 'hidden' name = 'total' value = '{{total}}'/>
-    <div class = 'card'  style = 'width:300px; border-style: hidden; background-color: #e1eaea; font-weight: bolder; text-align: center'>DELIVERY ADDRESS
-     <input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
-     </div> 
-   <div class = 'card text-right'  style = 'width:300px; border-style: hidden; background-color: #e1eaea; padding-top: 50px;'>      
-      <p class = 'card-text'>
-      <button type = 'submit' class = 'btn btn-info btn-sm' style = 'width:100px;'>pay</button></p>
-    </div>
-  
-  
+{% include 'order/showform.html' %}
+
+
+<div style = 'padding-bottom: 18px'>
+
+    <h7> Delivery Address </h7>
+
+    <div> {{address}} </div>
+
     
-    
-     
-     
-  
-
-</form>
 </div>
+
+<div>
+    <button style = 'margin-top:10px; background-color: skyblue; border-style:hidden;border-radius: 3px ; padding-bottom: 4px' id = 'show'>update address</button>
+</div>
+
+<div>
+    <form method= 'POST' id="showform" action = "{% url 'order:pay' %}" class = 'form'>{% csrf_token %} 
+
+      {% if product_list.exists %}
+          <input type = 'hidden' name = 'product_list' value = '{{product_list}}'/>
+      {% else %}
+          <input type = 'hidden' name = 'item' value = '{{item}}'/>
+      {% endif %}
+      <input type = 'hidden' name = 'total' value = '{{total}}'/>
+     
+
+      <div class = 'card'  style = 'width:300px; border-style: hidden; background-color: #e1eaea; font-weight: bolder; text-align: center'>
+
+         House & Street<input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
+         City<input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
+         State<input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
+         Pin<input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
+         Country<input type = 'text' style = 'width:300px;'name = 'address' value = {{address}}/>
+         </div> 
+
+       <div class = 'card text-right'  style = 'width:300px; border-style: hidden; background-color: #e1eaea; padding-top: 30px;'>      
+         <p class = 'card-text'>
+           <button type = 'submit' class = 'btn btn-info btn-sm' style = 'width:100px;'>pay</button></p>
+       </div>
+       
+
+    </form>
 </div>

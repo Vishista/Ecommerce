@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("#f1").hide();
+  });
+  $("#show").click(function(){
+    $("#f1").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<form name = 'form1' id = 'f1' action = ''>
+	name <input type = 'text'/>
+	address <input type = 'text'/>
+	new address <input type = 'text'/>
+</form>	
+<p>If you click on the "Hide" button, I will disappear.</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
+
+</body>
+</html>

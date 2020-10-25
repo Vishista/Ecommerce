@@ -1,0 +1,9 @@
+<style>
+#showhideForm{
+	display: none;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 14px;
+    background: #ececec;
+}	
+</style>

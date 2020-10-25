@@ -23,7 +23,8 @@ from carts.views import cart_view
 
 
 #from django.urls import path
-from .views import home_page, contact_page, user_info, about_page, login_page, register_page
+from .views import (home_page, contact_page, user_info, about_page, 
+login_page, register_page, fet)
 
 
 urlpatterns = [
@@ -40,6 +41,7 @@ urlpatterns = [
     url(r'^search/', include('search.urls', namespace = 'search')),
     url(r'^order/', include('order.urls', namespace = 'order')),
     url(r'^userinfo/', user_info, name = 'userinfo'),
+    url(r'^fet/', fet, name = 'fet'),
 ]
 
 if settings.DEBUG:

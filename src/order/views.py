@@ -34,12 +34,15 @@ def order_summary(request):
     id = request.POST.get('cart')
     username = request.user.username
     print(username)
+
     qs = UserInfo.objects.filter(user= username)
     #print(qs)
     if qs.exists():
-     address = qs.first().address
+     address = str(qs.first().address)
     else:
      address = 'enter address'
+    print('printing')
+    print(address)
 
     obj = Cart.objects.get(id=id)
     product_list = obj.products.all()
